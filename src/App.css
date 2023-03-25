@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Montserrat:wght@500;600;800;900&family=Poppins:wght@100;300;400;500;700;800&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&family=Montserrat:wght@500;600;800;900&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:wght@100;300;400;500;700;800&display=swap');
+.navbar{
+position: absolute;
+width: 1440px;
+height: 90px;
+left: 0px;
+top: 0px;
+
+background: #F0F0F0;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.nav-logo{
+    position: absolute;
+    width: 311px;
+    height: 49px;
+    left: 75px;
+    top: 20px;
+}
+
+.icon-home{
+position: absolute;
+width: 30px;
+height: 32.37px;
+left: 1125px;
+top: 33px;
+}
+
+.icon-tool{
+    position: absolute;
+width: 30px;
+height: 32.37px;
+left: 1178px;
+top: 33px;
+
+
+}
+.icon-bell{
+     
+position: absolute;
+left: 85.35%;
+right: 12.49%;
+top: 35.74%;
+bottom: 96.4%;
+ 
+}
+
+.icon-profile{
+    position: absolute;
+    width: 37px;
+    height: 37px;
+    left: 1283px;
+    top: 28px;
+}
+.icon-dot{
+    position: absolute;
+    width: 3.03px;
+    height: 2.99px;
+    left: 1346px;
+    top: 41px;
+}
+.icon-dot1{
+    position: absolute;
+    width: 3.03px;
+    height: 2.99px;
+    left: 1346px;
+    top: 46.98px;
+}
+.icon-dot2{
+    position: absolute;
+    width: 3.03px;
+    height: 2.99px;
+    left: 1346px;
+    top: 52.97px;
+}
+
+
+
+.sub-text{
+    position: absolute;
+width: 466px;
+height: 42px;
+left: 187px;
+top: 108px;
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 28px;
+line-height: 42px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+color: #0029FF;
+}
+
+.btn{
+    position: absolute;
+width: 121px;
+height: 36px;
+left: 1132px;
+top: 130px;
+background: #0029FF;
+border-radius: 10px;
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 18px;
+/* identical to box height */
+
+
+color: #FFFFFF;
+
+}
+
+.container{
+    position: absolute;
+    width: 1066px;
+    height: 135px;
+    left: 187px;
+    top: 187px;
+    
+    background: #E9ECEF;
+    border-radius: 5px;
+}
+
+.box-heading{
+    position: absolute;
+width: 374.05px;
+height: 30px;
+left: 21px;
+top:10px;
+
+
+
+font-family: 'Poppins';
+font-style: normal;
+font-weight: 700;
+font-size: 20px;
+line-height: 30px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #000000;}
+
+.box-para{
+    position: absolute;
+    width: 1012px;
+    height: 45px;
+    left: 21px;
+    top: 45px;
+    
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: 0.02em;
+    
+    color: #000000;
+
+}
+
+
+.card-box{
+position: absolute;
+width: 480px;
+height: 580px;
+left: 214px;
+top: 397px;
+
+background: #FDFDFD;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25), 0px -4px 4px rgba(0, 0, 0, 0.25);
+border-radius: 15px;
+}
+
+.card-title{
+    position: absolute;
+    width: 480px;
+    height: 50px; 
+    background: #000000;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.asset-title{
+    position: absolute;
+width: 247px;
+height: 22px;
+left: 120px;
+
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+/* identical to box height */
+
+letter-spacing: 0.02em;
+
+color: #FFFFFF;
+
+}
+
+.asset-descrip{
+    position: absolute;
+width: 453px;
+height: 83px;
+left: 22px;
+top: 60px;
+
+font-family: 'Open Sans';
+font-style: normal;
+font-weight: 600;
+font-size: 16px;
+line-height: 22px;
+letter-spacing: 0.02em;
+
+color: #000000;
+}
+
+.asset-content{
+    position: absolute;
+width: 480px;
+height: 291px;
+padding: 150px 0px;
+
+}
