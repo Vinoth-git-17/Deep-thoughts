@@ -49,7 +49,7 @@
             "asset_id": 18884,
             "asset_title": "Threadbuild",
             "asset_description": "Watch the video and thread build, and jot out key threads while watching that video.",
-            "asset_content": " ",
+            "asset_content": "",
             "asset_type": "input_asset",
             "asset_content_type": "threadbuilder"
           },
@@ -59,7 +59,7 @@
             "asset_description": "Write a 400-500 word article, from your thread. Publish your understanding, and showcase your learning to the entire world.",
             "asset_content": " ",
             "asset_type": "input_asset",
-            "asset_content_type": "article"
+            "asset_content_type": "input-article"
           },
           {
             "asset_id": 18886,
