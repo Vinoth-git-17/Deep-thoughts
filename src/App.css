@@ -99,16 +99,14 @@ bottom: 96.4%;
     position: absolute;
     top:0px;
     left: 0;
+transition: 1s ease-in-out;
 transform: translateX(-340px);
 
 }
 
 
-.journey-board:hover{
+.journey-toggle{
 transform: translateX(0px);
-transition: 1s ease-in-out;
-
-
 }
 
 .journey-top{
@@ -143,11 +141,16 @@ transition: 1s ease-in-out;
     height: 26px;
      left: 360px;
      outline:solid white 2px;
-     top:109px
-   
-     
+     top:109px;
+    transition: 0.5s ease-in-out;
   
 }
+
+.journey-switch-rotate{
+    transform: rotate(-180deg);
+
+}
+
 .journey-heading{
     position: absolute;
 width: 309px;
@@ -465,8 +468,11 @@ bottom: 68.52%;
 
 /* background: #000000; */
 /* border: 0.1px solid rgba(0, 0, 0, 0.4); */
-transform: matrix(1, 0, 0, -1, 0, 0);
+/* transform: matrix(1, 0, 0, -1, 0, 0); */
+transition: 0.5s ease-in-out;
 }
+.arrow-rotate{
+    transform: rotate(-180deg);}
 
 .thread{
     box-sizing: border-box;
@@ -486,6 +492,18 @@ transform: matrix(1, 0, 0, -1, 0, 0);
     
     color: #000000;
 }
+
+.threadA-content{
+    
+    transition: 0.5S ease-in-out;
+   
+}
+/* .threadA-show{
+   display: none;
+  
+    
+    
+} */
 
 .thread-btn{
     position: absolute;

@@ -1,11 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import data from '../data/data.json'
 const assets_data= data["tasks"][0]["assets"][0] ;
 const tasks_data=data["tasks"][0]
 const dashboard = (props) => {
-  
-  return (
-    
+  const [toggle, useToggle] = useState(false);
+  return (    
 
     <div>
       <div>
@@ -27,11 +26,11 @@ const dashboard = (props) => {
                 <h1 className='box-heading'>{props.title}</h1>
                 <p className='box-para'>{props.description}</p>
         </div>
-        <div  className='journey-board'>
+        <div  className={`journey-board ${toggle?"journey-toggle":""}`}>
           
           
           <h2 className='journey-text'>Journeyboard</h2>
-           <img className='journey-switch' src="../images/arrow-r-r.png" alt="" />
+           <img className={`journey-switch ${toggle?"journey-switch-rotate":""}`} onClick={()=>{useToggle(!toggle)}} src="../images/arrow-r-r.png" alt="" />
           
          
            <div className='journey-bottom'>
